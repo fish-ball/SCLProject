@@ -1,0 +1,371 @@
+This is TeX, Version 3.141592 (MiKTeX 2.3) (preloaded format=latex 2000.11.28)  4 NOV 2003 14:49
+**SCL.tex
+(SCL.tex
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for english, french, german, ngerman, du
+mylang, nohyphenation, loaded.
+(C:\PROGRA~1\CTex\texmf\tex\latex\base\report.cls
+Document Class: report 2001/04/21 v1.4e Standard LaTeX document class
+(C:\PROGRA~1\CTex\texmf\tex\latex\base\size10.clo
+File: size10.clo 2001/04/21 v1.4e Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(C:\PROGRA~1\CTex\localtexmf\tex\latex\CJK\CJK.sty
+Package: CJK 2003/03/28 4.5.2
+
+(C:\PROGRA~1\CTex\localtexmf\tex\latex\CJK\mule\MULEenc.sty
+File: MULEenc.sty 2003/03/28 4.5.2
+)
+(C:\PROGRA~1\CTex\localtexmf\tex\latex\CJK\CJK.enc
+File: CJK.enc 2003/03/28 4.5.2
+)
+LaTeX Info: Redefining \selectfont on input line 661.
+\CJK@indent=\box26
+)
+(C:\PROGRA~1\CTex\texmf\tex\latex\listings\listings.sty
+Package: listings 2002/04/01 1.0 (Carsten Heinz)
+
+(C:\PROGRA~1\CTex\texmf\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+\lst@mode=\count88
+\lst@gtempboxa=\box27
+\lst@token=\toks15
+\lst@length=\count89
+\lst@currlwidth=\dimen103
+\lst@column=\count90
+\lst@pos=\count91
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count92
+\lst@lineno=\count93
+\c@lstlisting=\count94
+\lst@maxwidth=\dimen106
+
+(C:\PROGRA~1\CTex\texmf\tex\latex\listings\lstpatch.sty
+File: lstpatch.sty 2002/10/13 1.0i (Carsten Heinz)
+)
+(C:\PROGRA~1\CTex\texmf\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2002/04/01 1.0 (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box28
+)
+(C:\PROGRA~1\CTex\texmf\tex\latex\listings\listings.cfg
+File: listings.cfg 2002/04/01 v1.0 listings configuration
+))
+(C:\PROGRA~1\CTex\texmf\tex\latex\listings\lstlang1.sty
+File: lstlang1 2002/07/31 v1.0d listings language file
+)
+(C:\PROGRA~1\CTex\texmf\tex\latex\listings\lstlang1.sty
+File: lstlang1 2002/07/31 v1.0d listings language file
+)
+(C:\PROGRA~1\CTex\texmf\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2002/04/01 1.0 (Carsten Heinz)
+) (SCL.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+
+(C:\PROGRA~1\CTex\localtexmf\tex\latex\CJK\standard.bdg
+File: standard.bdg 2003/03/28 4.5.2
+)
+(C:\PROGRA~1\CTex\localtexmf\tex\latex\CJK\extended.enc
+File: extended.enc 2003/03/28 4.5.2
+)
+(C:\PROGRA~1\CTex\localtexmf\tex\latex\CJK\extended.chr
+File: extended.chr 2003/03/28 4.5.2
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 11.
+ [1
+
+] (SCL.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+ [1
+
+]
+[2])
+\tf@toc=\write3
+ [3]
+Chapter 1.
+(std/hp_c.cpp
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 4.
+ (C:\PROGRA~1\CTex\texmf\tex\latex\base\omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 6.
+
+(C:\PROGRA~1\CTex\texmf\tex\latex\base\omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 6.
+ [4
+
+]) (std/hp_cpp.cpp [5])
+(std/hp_float.cpp [6] [7]) (std/fraction.cpp [8]) (std/BinaryHeap.cpp [9])
+(std/WinnerTree.cpp) [10] (std/DigitalTree.cpp) (std/SegmentTree.cpp)
+(std/SegmentTree_IOI.cpp [11
+
+]) (std/UnionFind.cpp) (std/quicksort.cpp) [12]
+(std/mergesort.cpp) (std/radixsort.cpp)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 42.
+ (std/SelectK.cpp) (std/KMP.cpp [13
+
+])
+(std/SuffixSort.cpp) [14]
+Chapter 2.
+(std/DijkstraHeap.cpp [15
+
+]) (std/BellmanFord.cpp) (std/kruskal.cpp)
+(std/MDST.cpp [16]) (std/MMBG.cpp) [17] (std/KuhnMunkres.cpp) (std/MMGG.cpp
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 2.
+
+[18
+
+]) (std/MaxFlowMatrix.cpp) [19] (std/MaxFlowLink.cpp) [20
+
+]
+(std/MinCostMatrix.cpp) [21
+
+] (std/MinCostLink.cpp
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+) (std/Chordal_MCS.cpp)
+[22
+
+] (std/bridge.cpp) (std/cutvertex.cpp) [23
+
+] (std/block.cpp) [24
+
+]
+(std/toposort.cpp) (std/scc.cpp) [25
+
+] (std/MC_IDFS.cpp) [26
+
+] (std/MC_SIMPLE.cpp) [27
+
+]
+Chapter 3.
+(std/GCD.cpp) (std/china.cpp) [28
+
+
+] (std/prime.cpp) (std/phi.cpp) [29
+
+]
+(std/discretelogarithm.cpp) [30
+
+] (std/modsqrt.cpp) [31
+
+]
+Chapter 4.
+(std/equ_xor.cpp) [32
+
+] (std/equ_int.cpp) (std/equ_q.cpp) [33
+
+] (std/equ_real.cpp) (std/PolynomialRoot.cpp) [34
+
+] (std/Roots3and4.cpp [35
+
+]) (std/FFT.cpp)
+(std/FFT_PolyMulti.cpp [36]) (std/FFT_Convolution.cpp) (std/FFT_ReverseBits.cpp
+[37]) [38] (std/LP.cpp [39
+
+]) [40]
+Chapter 5.
+(std/CGBasic.cpp) [41
+
+] (std/CGExtended.cpp [42
+
+]) [43
+
+] (std/CGConvex.cpp
+[44
+
+] [45]) (std/Diameter.cpp) [46] (std/ClosestPair.cpp) (std/Circles.cpp
+[47
+
+]) [48] (std/LECP.cpp) [49
+
+] (std/TriangleCenters.cpp) [50
+
+]
+(std/PolyhedronVolume.cpp) [51
+
+] (std/PlanarContour.cpp) [52
+
+]
+(std/RectanglesArea.cpp [53
+
+]) [54] (std/RectanglesPerimeter.cpp [55
+
+]) [56]
+(std/SmallestCircle.cpp) [57
+
+] (std/SmallestBall.cpp [58
+
+]) [59]
+Chapter 6.
+(std/bernoulli.cpp) [60
+
+] (std/expressions.cpp) (std/bead.cpp
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+) [61
+
+] (std/BSN.cpp) (std/BoxSufDis.cpp) (std/CalcExpr.cpp [62
+
+])
+(std/CartesianTree.cpp) [63] (std/Catalan.cpp) [64
+
+] (std/CRP.cpp)
+(std/inverse.cpp) (std/CountingTrees.cpp [65
+
+]) (std/EightPuzzle.cpp [66]
+[67]) [68] (std/ExHanoiTower.cpp) (std/HPSqrt.cpp) (std/LER.cpp [69
+
+] [70])
+(std/fact.cpp [71]) (std/lca.cpp [72]) (std/LCS.cpp [73] [74]) [75]
+(std/LNDSS.cpp) (std/JoinDisjoin.cpp) (std/JSDR.cpp [76
+
+]) [77]
+(std/MagicSquare.cpp) [78
+
+] (std/OptimalBST.cpp) (std/PackRect_CutRect.cpp)
+[79
+
+] (std/PackRect_N2.cpp) (std/Parliament.cpp) (std/PI.cpp) [80
+
+]
+(std/PlantTreesIteration.cpp) (std/PlantTreesSegtree.cpp [81
+
+]) (std/RMQ.cpp)
+(std/TSP.cpp [82]) [83] (std/TreeHeights.cpp) [84
+
+] (std/MCP.cpp) [85
+
+]
+(std/maxsubmatrix.cpp) (std/MaxTwoChain.cpp [86
+
+] [87]) (std/nqueens.cpp)
+(std/DeBruijn.cpp) [88] (std/ZOJ_Partition.cpp) [89
+
+] (SCL.aux) ) 
+Here is how much of TeX's memory you used:
+ 4755 strings out of 96052
+ 50995 string characters out of 1196770
+ 113658 words of memory out of 1087652
+ 6808 multiletter control sequences out of 35000
+ 10068 words of font info for 35 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 607
+ 32i,12n,68p,213b,1065s stack positions out of 1500i,500n,5000p,200000b,32768s
+
+Output written on SCL.dvi (90 pages, 661600 bytes).

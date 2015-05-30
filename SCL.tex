@@ -1,0 +1,279 @@
+\documentclass{report}
+\usepackage{CJK}
+\usepackage{listings}
+\textwidth=520pt \hoffset=-100pt \voffset=-100pt \footskip=20pt
+\textheight=750pt \lstset{language=c++}
+\begin{document}
+\begin{CJK*}{GBK}{kai}
+
+\title{Standard Code Library}
+\author{Hao Yuan\\Department of Computer Science and Engineering\\Shanghai Jiaotong University}
+\maketitle \tableofcontents
+
+\chapter{Algorithms and Datastructures}
+\section{High Precision in C }
+\input{std/hp_c.cpp}
+\section{High Precision in C Plus Plus}
+\input{std/hp_cpp.cpp}
+\section{High Precision Floating-point Number}
+\input{std/hp_float.cpp}
+\section{Fraction Class} \label{fraction_class}
+\input{std/fraction.cpp}
+\section{Binary Heap}
+\input{std/BinaryHeap.cpp}
+\section{Winner Tree}
+\input{std/WinnerTree.cpp}
+\clearpage
+\section{Digital Tree}
+\input{std/DigitalTree.cpp}
+\section{Segment Tree}
+\input{std/SegmentTree.cpp}
+\section{Segment Tree in IOI'2001}
+\input{std/SegmentTree_IOI.cpp}
+\section{Union-Find Set}
+\input{std/UnionFind.cpp} \label{unionfind_set}
+\section{Quick Sort}
+\input{std/quicksort.cpp}
+\clearpage
+\section{Merge Sort}
+\input{std/mergesort.cpp}
+\section{Radix Sort}
+\input{std/radixsort.cpp}
+\section{Select $K^{th}$ Smallest Element}
+\input{std/SelectK.cpp}
+\section{KMP}
+\input{std/KMP.cpp}
+\section{Suffix Sort}
+\input{std/SuffixSort.cpp}
+
+\chapter{Graph Theory and Network Algorithms}
+\section{SSSP --- Dijkstra + Binary Heap}
+\input{std/DijkstraHeap.cpp}
+\section{SSSP --- Bellman Ford + Queue}
+\input{std/BellmanFord.cpp}
+\section{MST  --- Kruskal}
+\input{std/kruskal.cpp}
+\section{Minimum Directed Spanning Tree}
+\input{std/MDST.cpp}
+\section{Maximum Matching on Bipartite Graph}
+\input{std/MMBG.cpp}
+\clearpage
+\section{Maximum Cost Perfect Matching on Bipartite Graph}
+\input{std/KuhnMunkres.cpp}
+\section{Maximum Matching on General Graph}
+\input{std/MMGG.cpp}
+\section{Maximum Flow --- Ford Fulkson in Matrix}
+\input{std/MaxFlowMatrix.cpp}
+\clearpage
+\section{Maximum Flow --- Ford Fulkson in Link}
+\input{std/MaxFlowLink.cpp}
+\clearpage
+\section{Minimum Cost Maximum Flow in Matrix}
+\input{std/MinCostMatrix.cpp}
+\clearpage
+\section{Minimum Cost Maximum Flow in Link}
+\input{std/MinCostLink.cpp}
+\section{Recognizing Chordal Graph}
+\input{std/Chordal_MCS.cpp}
+\clearpage
+\section{DFS --- Bridge}
+\input{std/bridge.cpp}
+\section{DFS --- Cutvertex}
+\input{std/cutvertex.cpp}
+\clearpage
+\section{DFS --- Block}
+\input{std/block.cpp}
+\clearpage
+\section{DFS --- Topological Sort}
+\input{std/toposort.cpp}
+\section{Strongly Connected Component}
+\input{std/scc.cpp}
+\clearpage
+\section{Maximum Clique}
+\input{std/MC_IDFS.cpp}
+\clearpage
+\input{std/MC_SIMPLE.cpp}
+\clearpage
+
+\chapter{Number Theory}
+\section{Greatest Common Divisor}
+\input{std/GCD.cpp}
+\section{Chinese Remainder Theorem}
+\input{std/china.cpp}
+\clearpage
+\section{Prime Generator}
+\input{std/prime.cpp}
+\section{$\phi$ Generator}
+\input{std/phi.cpp}
+\clearpage
+\section{Discrete Logarithm}
+\input{std/discretelogarithm.cpp}
+\clearpage
+\section{Square Roots in $Z_{p}$}
+\input{std/modsqrt.cpp}
+
+\chapter{Algebraic Algorithms}
+\section{Linear Equations in $Z_{2}$}
+\input{std/equ_xor.cpp}
+\clearpage
+\section{Linear Equations in $Z$}
+\input{std/equ_int.cpp}
+\section{Linear Equations in $Q$}
+\input{std/equ_q.cpp}
+\clearpage
+\section{Linear Equations in $R$}
+\input{std/equ_real.cpp}
+\section{Roots of Polynomial}
+\input{std/PolynomialRoot.cpp}
+\clearpage
+\section{Roots of Cubic and Quartic}
+\input{std/Roots3and4.cpp}
+\section{Fast Fourier Transform}
+\input{std/FFT.cpp}
+\section{FFT - Polynomial Multiplication}
+\input{std/FFT_PolyMulti.cpp}
+\section{FFT - Convolution}
+\input{std/FFT_Convolution.cpp}
+\section{FFT - Reverse Bits}
+\input{std/FFT_ReverseBits.cpp}
+\clearpage
+\section{Linear Programming - Primal Simplex}
+\input{std/LP.cpp}
+
+
+\chapter{Computational Geometry}
+\section{Basic Operations}
+\input{std/CGBasic.cpp} \label{cgbasic}
+\clearpage
+\section{Extended Operations }
+\input{std/CGExtended.cpp} \label{cgextended}
+\clearpage
+\section{Convex Hull}
+\input{std/CGConvex.cpp} \label{convex}
+\section{Point Set Diameter}
+\input{std/Diameter.cpp}
+\clearpage
+\section{Closest Pair}
+\input{std/ClosestPair.cpp}
+\section{Circles}
+\input{std/Circles.cpp}
+\clearpage
+\section{Largest Empty Convex Polygon}
+\input{std/LECP.cpp}
+\clearpage
+\section{Triangle Centers}
+\input{std/TriangleCenters.cpp}
+\clearpage
+\section{Polyhedron Volume}
+\input{std/PolyhedronVolume.cpp}
+\clearpage
+\section{Planar Graph Contour}
+\input{std/PlanarContour.cpp}
+\clearpage
+\section{Rectangles Area}
+\input{std/RectanglesArea.cpp}
+\clearpage
+\section{Rectangles Perimeter}
+\input{std/RectanglesPerimeter.cpp}
+\clearpage
+\section{Smallest Enclosing Circle}
+\input{std/SmallestCircle.cpp}
+\clearpage
+\section{Smallest Enclosing Ball}
+\input{std/SmallestBall.cpp}
+
+
+\chapter{Classic Problems}
+\section{Bernoulli Number Generator}
+\input{std/bernoulli.cpp}
+\clearpage
+\section{Baltic OI'99 Expressions}
+\input{std/expressions.cpp}
+\section{Bead Coloring --- P\'olya Theory}
+\input{std/bead.cpp}
+\clearpage
+\section{Binary Stirling Number}
+\input{std/BSN.cpp}
+\section{Box Surface Distance}
+\input{std/BoxSufDis.cpp}
+\section{Calculate Expression}
+\input{std/CalcExpr.cpp}
+\section{Cartesian Tree}
+\input{std/CartesianTree.cpp}
+\clearpage
+\section{Catalan Number Generator}
+\input{std/Catalan.cpp}
+\clearpage
+\section{Coloring Regular Polygon}
+\input{std/CRP.cpp}
+\section{Counting Inverse Pairs}
+\input{std/inverse.cpp}
+\section{Counting Trees}
+\input{std/CountingTrees.cpp}
+\section{Eight Puzzle Problem}
+\input{std/EightPuzzle.cpp}
+\clearpage
+\section{Extended Honai Tower}
+\input{std/ExHanoiTower.cpp}
+\section{High Precision Square Root}
+\input{std/HPSqrt.cpp}
+\section{Largest Empty Rectangle}
+\input{std/LER.cpp}
+\section{Last Non-Zero Digit of N!}
+\input{std/fact.cpp}
+\section{Least Common Ancestor}
+\input{std/lca.cpp}
+\section{Longest Common Substring}
+\input{std/LCS.cpp}
+\clearpage
+\section{Longest Non Descending Sub Sequence}
+\input{std/LNDSS.cpp}
+\section{Join and Disjoin}
+\input{std/JoinDisjoin.cpp}
+\section{Job Scheduling - Deadline Restricted}
+\input{std/JSDR.cpp}
+\clearpage
+\section{Magic Square}
+\input{std/MagicSquare.cpp}
+\clearpage
+\section{Optimal Binary Search Tree}
+\input{std/OptimalBST.cpp}
+\section{Pack Rectangles --- Cut Rectangles}
+\input{std/PackRect_CutRect.cpp}
+\clearpage
+\section{Pack Rectangles --- O($N^2$)}
+\input{std/PackRect_N2.cpp}
+\section{Parliament}
+\input{std/Parliament.cpp}
+\section{$\pi$ Generator}
+\input{std/PI.cpp}
+\clearpage
+\section{Plant Trees --- Iteration}
+\input{std/PlantTreesIteration.cpp}
+\section{Plant Trees --- Segment Tree}
+\input{std/PlantTreesSegtree.cpp}
+\section{Range Maximum Query}
+\input{std/RMQ.cpp}
+
+\section{Travelling Salesman Problem}
+\input{std/TSP.cpp}
+\clearpage
+\section{Tree Heights}
+\input{std/TreeHeights.cpp}
+\clearpage
+\section{Minimum Cyclic Presentation}
+\input{std/MCP.cpp}
+\clearpage
+\section{Maximal Non-Forbidden Submatrix}
+\input{std/maxsubmatrix.cpp}
+\section{Maximum Two Chain Problem}
+\input{std/MaxTwoChain.cpp}
+\section{N Queens Problem}
+\input{std/nqueens.cpp}
+\section{de Bruijn Sequence Generator}
+\input{std/DeBruijn.cpp}
+\clearpage
+\section{ZOJ 1482 Partition}
+\input{std/ZOJ_Partition.cpp}
+\end{CJK*}
+\end{document}

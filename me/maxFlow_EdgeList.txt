@@ -1,0 +1,88 @@
+#include <algorithm>
+#include <cstring>
+
+using namespace std;
+
+#define LIMITN 1000
+#define LIMITE 500000
+#define inf 0x7f7f7f7f
+
+int head[LIMITN];
+int pre[LIMITE];
+int v[LIMITE];
+int c[LIMITE];
+int f[LIMITE];
+int be[LIMITE];
+
+int q[LIMITN];
+int neck[LIMITN];
+bool vis[LIMITN];
+int from[LIMITN];
+
+int E;
+
+inline void addEdge(int a,int b,int cap) // don't forget to clear E & head
+{
+  ++E;
+  pre[E]=head[a];
+  head[a]=E;
+  v[E]=b;
+  c[E]=cap;
+  f[E]=0;
+  be[E]=E+1;
+
+  ++E;
+  pre[E]=head[b];
+  head[b]=E;
+  v[E]=a;
+  c[E]=0;
+  f[E]=0;
+  be[E]=E-1;
+}
+
+int maxFlow(int sour,int targ)
+{
+  int l,r,i,j;
+  int ret=0;
+  bool find;
+
+  for (;;)
+    {
+      memset(vis,0,sizeof(vis));
+      vis[q[0]=sour]=true;
+      find=false;
+      neck[sour]=inf;
+      for (l=0,r=1;l<r&&!find;++l)
+	{
+	  i=q[l];
+	  for (j=head[i];j;j=pre[j])
+	    if (f[j]<c[j]&&!vis[v[j]])
+	      {
+		vis[v[j]]=true;
+		neck[v[j]]=min(neck[i],c[j]-f[j]);
+		from[v[j]]=j;
+		q[r]=v[j];
+		if (q[r]==targ)
+		  {
+		    find=true;
+		    break;
+		  }
+		++r;
+	      }
+	}
+
+      if (!find)
+	break;
+
+      ret+=neck[targ];
+      for (i=targ;i!=sour;i=v[be[j]])
+	{
+	  j=from[i];
+	  f[j]+=neck[targ];
+	  f[be[j]]=-f[j];
+	}
+    }
+
+  return ret;
+}
+
